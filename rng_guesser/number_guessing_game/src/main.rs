@@ -31,10 +31,9 @@ fn guessing() {
         if guess == target_number {
             println!("Yeah, it was right, the number was {target_number}!");
             return;
-        } else {
-            println!("Sorry, Your answer was wrong!");
-            continue;
         }
+        println!("Sorry, Your answer was wrong!");
+        continue;
     }
 }
 
